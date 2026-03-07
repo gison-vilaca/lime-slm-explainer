@@ -2,11 +2,11 @@
 
 Este projeto avalia como escolher de maneira adaptativa o número de perturbações do LIME para obter uma explicabilidade de texto coerente para uma *query* $x$, utilizando Pequenos Modelos de Linguagem (SLMs) executados localmente.
 
-[cite_start]A abordagem é inspirada na tradução de explicações matemáticas complexas para linguagem acessível a públicos não técnicos. 
+A abordagem é inspirada na tradução de explicações matemáticas complexas para linguagem acessível a públicos não técnicos. 
 
 ## Tecnologias
 * **LIME**: Para geração de interpretabilidade local.
-* [cite_start]**Docker Model Runner**: Para execução local e otimizada de modelos como `qwen2.5` e `ibm-granite-4.0-nano` via uma API compatível com OpenAI.
+* **Docker Model Runner**: Para execução local e otimizada de modelos como `qwen2.5` e `ibm-granite-4.0-nano` via uma API compatível com OpenAI.
 * **Python & Jupyter**: Para análise e avaliação das perturbações.
 
 ## Como rodar
