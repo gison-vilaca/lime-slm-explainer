@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  explainer-env:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    image: lime-slm-env
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/app
+    environment:
+      # URL para conectar o container ao Docker Model Runner no host
+      - SLM_BASE_URL=http://host.docker.internal:12434/v1
+      - SLM_MODEL_NAME=qwen2.5 # ou ibm-granite-4.0-nano
+    command: jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser --allow-root
