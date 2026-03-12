@@ -43,14 +43,7 @@ Certifique-se de ter o Python instalado e instale os pacotes necessários:
 
 3. Rodando o Pipeline
 Primeiro, execute o script principal para baixar os dados, treinar o modelo e gerar as explicações:
-> python main.py
+> python src/experiment.py
 
 Em seguida, para gerar as visualizações e os gráficos do artigo:
 > python src/analise_resultados.py
-
--------------------------------------------------------------------
-REFERÊNCIAS PRINCIPAIS
--------------------------------------------------------------------
-* Ribeiro, M. T., et al. (2016). "Why Should I Trust You?": Explaining the Predictions of Any Classifier.
-* Arrieta, A. B., et al. (2020). Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges.
-* Qwen Team (2024). Qwen2.5 Technical Report.
